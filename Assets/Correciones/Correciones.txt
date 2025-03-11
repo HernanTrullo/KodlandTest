@@ -1,0 +1,19 @@
+1. La función start del jugador tenia la linea de código:
+Destroy(this)
+
+2. La vida del jugador empieza en 0 por lo que pierde al instante:
+changeHealth(100)
+
+3. El player controller no se le ha asignado la bala o bullet
+Se procede a asignar el buller al controlador del player
+
+4. Se han corregido la parte de los errores, ahora se procede a relalizar el proceso
+para que el jugador pueda moverse por la pista
+
+5. Para poder mover el player se activa el CharacterController
+
+6. Se quitó la parte del código que elimina los enemigos de un click
+
+7. se le añadio sphere_collider a los enemigos y a la bala para poderse destruir.
+
+8. Se agrego el evento on_trigger al objeto bala y se elimina tanto la bala como el objeto
